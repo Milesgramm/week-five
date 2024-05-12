@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+    background-color:bisque;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+} 
+.navigation ul li{
+    margin-left: 15px;
+    float: left;
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.calen{
+    width: 20px;
+}
+.calen1{
+    display: flex;
+    width: 1%;
+}
+.navigation ul li:hover{
+    background: #ddd;
+    color: black;
+    
+}
+.Logo{
+    font-weight: bold;
+    color: black;
+}
+.image-container{
+    display: inline-block;
+    width: 100%;
+}
+.image-container img{
+    display: block;
+    width: 100%;
+    height: Auto;
+}
+.overlay-text{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 80px;
+    text-align: left;
+}
+.secondlayer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 6%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    
+    
+}
+.firstcolumn{
+width: 30%;
+text-align: left;
+border: 10px;
+border-color: #ddd;
+
+}
+.featuredimg{ 
+    width: 100%;
+}
+
+.secondcolumn{
+    width: 35%;  
+    border: 10px;
+    border-color: #ddd;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    
+}
+.f-write{
+    font-weight:bolder;
+    font-size: 62px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f-text{
+    color: rgba(165, 42, 42, 0.986);
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.f-y{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.thirdcolumn{
+    width: 15%;
+    background-color: rgba(255, 253, 240, 0.904);
+    //text-align: left;
+    display: flex;
+    //flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}    
+.flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.thirdlayer{
+    width: 100%;
+    height: 100%;
+    border: solid;
+    background-color: black;
+    align-items: center;
+}
+.get{
+color: white;
+font-size: 80px;
+font-weight: bolder;
+text-align: center;
+max-width: 42%;
+justify-self: center;
+margin-left: 25%;
+}
+.vimg{
+   text-align: center;
+   width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    //position: relative;
+    padding-top: 5%;
+  }
+  .playicon{
+    border-radius: 50%;
+  }
+.box{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 90%;
+    margin-left: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 22%;
+    font-weight: 900;
+    font-size: 30px;
+    background-color: bisque;
+    display: flex;
+    justify-content:center;
+    text-align: left;
+   }
+.no{
+    color: orange;
+    font-weight: bolder;
+    text-align: left;
+    padding-right: 5%;
+}
+.header2{
+        display: flex;
+        //flex-direction: row;
+        justify-content: space-between;
+        //align-items: center;
+        padding: 10px;
+        overflow: hidden;
+}
+.mi{
+    color: orange;
+    font-weight: lighter;
+}
+.sh{
+    font-weight: bold;
+    width: 60%;
+ }
+ .brr{
+    display: flex;
+ }
+ .cl{
+width: 100%;
+border: solid;
+align-items: center;
+height: 40%;
+background-color: black;
+color: white;
+ }
+ .ck{
+    background-color: orange;
+    height: 40%;
+    align-items: center;
+    }
+ .appt{
+    color: white;
+ }
+.fourthlayer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 6%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    
+}
+.firstcontainer{
+    width: 20%;  
+    border: 10px;
+    background-color: whitesmoke;
+    
+}
+.cont1{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 20%;
+
+}
+.rb{
+    
+}
+.secondcontainer{
+    width: 50%;
+}
+.property5{
+    width: 100%;
+}
+.thirdcontainer{
+    width: 21%;
+    padding-inline: 1%;
+}
+.extra{
+    padding-bottom: 20%;
+    font-weight: bolder;
+}
+.jj{
+    text-align: left;
+}
+.yy{
+    padding-top: 20%;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;  
+    }
+.grid11{
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lastt{
+    align-items: center;
+    padding-left: 41%;
+}
+.we{
+    text-align: center;
+    font-weight: 100%;
+    width: 42%;
+    padding-bottom: 10%;
+}
+.lastbox{
+    width: 35%;
+    background-color:black;
+    border: 10%;
+    border-radius: 10%;
+    color: white;   
+}
+.qq{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: left;
+   }
+
+.thnk{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.thanks{
+    display: block;
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+}
+.compact{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 100px;
+    text-align: center;
+}
+.wee{
+    color: orange;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 70px;
+    text-align: left;
+}
+
+.boxi{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 90%;
+    justify-content: space-between;
+}
+.boxi1{
+    width: 20%;
+    border:lightcyan solid;
+    height: 30%;
+}
+.boxi2{
+    width: 20%;
+    border:lightcyan solid;
+    height: 35%;
+}
+.email{
+    width: 20%;
+}
+
+.boxi3{
+    width: 25%;
+    
+}
+.forms{
+    text-align: left;
+    
+}
+   .footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 3px;
+   }
+   
+   
+/*@media only screen and (max-width:500px) {
+    .secondlayer, .thirdlayer, .featuredimg{
+        width: 30%;
+    }  
+
+}*/
+
